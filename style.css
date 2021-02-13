@@ -3,12 +3,20 @@
     margin: 0;
 }
 
+/* Header */ 
+/* Header */ 
+/* Header */ 
 #header{
     background-image: url(images/maldives.jpg);
     height: 80vh;
     background-size: cover;
     position: center;
 }
+
+/* Navbar */ 
+/* Navbar */ 
+/* Navbar */ 
+
 .navbar-nav{
     float: right;
 }
@@ -29,8 +37,13 @@ nav .fa-bars{
     color: #fff !important;
     font-size: 26px;
 }
+/* Navbar */ 
+/* Navbar */ 
+/* Navbar */ 
 
-/* Welcome Text */
+/* Welcome  */
+/* Welcome  */
+/* Welcome  */
 .welcome{
     padding: 50px 100px;
     margin-top: -140px;
@@ -54,8 +67,13 @@ nav .fa-bars{
     box-shadow: none;
 }
 
-/* Welcome Text */
+/* Welcome  */
+/* Welcome  */
+/* Welcome  */
 
+/* About */
+/* About */
+/* About */
 #about{
     padding-top: 100px;
     padding-bottom: 100px;
@@ -70,7 +88,13 @@ nav .fa-bars{
     margin: 20px auto;
 }
 
-/* Welcome Text */
+/* About */
+/* About */
+/* About */
+
+/* Services */
+/* Services */
+/* Services */
 
 #services {
     background-color: #efefef;
@@ -96,7 +120,13 @@ nav .fa-bars{
     text-align: justify;
 }
 
-/* Welcome Text */
+/* Services */
+/* Services */
+/* Services */
+
+/* Features */
+/* Features */
+/* Features */
 
 #features{
     padding-top: 100px;
@@ -145,7 +175,13 @@ padding: 20px;
     text-align: left;
 }
 
-/* Welcome Text */
+/* Features */
+/* Features */
+/* Features */
+
+/* Testimonials */
+/* Testimonials */
+/* Testimonials */
 
 #testimonials {
     padding-top: 100px;
@@ -197,6 +233,13 @@ padding: 20px;
     margin-top: -30px;
 }
 
+/* Testimonials */
+/* Testimonials */
+/* Testimonials */
+
+/* Subscribe */
+/* Subscribe */
+/* Subscribe */
 
 .subscribe{
     padding: 50px 20px;
@@ -218,6 +261,7 @@ padding: 20px;
     padding: 5px;
 }
 
+
 .subscribe .form-control{
     border: none;
     background: transparent; 
@@ -237,6 +281,13 @@ padding: 20px;
     box-shadow: none;
 }
 
+/* Subscribe */
+/* Subscribe */
+/* Subscribe */
+
+/* Footer */
+/* Footer */
+/* Footer */
 
 #footer{
     margin-top: 80px;
@@ -288,3 +339,14 @@ margin-top: 10px;
      margin-bottom: -80px;
      font-size: 15px;
  }
+
+ /* Footer */
+/* Footer */
+/* Footer */
+@media only screen and (max-width: 550px) {
+   .embed-resonsive iframe{
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: 100%;
+    }
+}
