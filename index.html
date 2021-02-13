@@ -10,17 +10,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-<head>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-  </head>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="animate.min.css">
 
 <title>Document</title>
 </head>
 <body>
+
+    <!-- Header -->
     <section id="header">
         <nav class="navbar navbar-light">
             <a class="navbar-brand" href="#"><img src="images/OL3O6X0.png" alt="" height="120px" width="150px"></a>
@@ -42,8 +39,8 @@
 
     <!-- Welcome Text -->
     <section id="welcome">
-        <div class="container">
-            <div class="welcome text-center animate__bounce">
+        <div class="container" data-aos="fade-up">
+            <div class="welcome text-center">
                 <h1> Create website with animation</h1>
                 <p> Subcribe out youtube channel also learn new thing in this website with different animation and everything . check below </p>
                 <button type="submit" class="btn home-btn"> Subscribe </button>
@@ -55,42 +52,44 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-center">
-                        <img src="images/people1.jpg" alt="" class="img-fluid">
+                <div class="col-md-6 text-center" >
+                        <img src="images/people1.jpg" alt="" class="img-fluid" data-aos="fade-right">
                 </div>
-                <div class="col-md-6 text-justify">
+                <div class="col-md-6 text-justify" data-aos="fade-left">
                     <h3> Knowledge , Skills and Hardwork </h3>
                     <p> Subcribe out youtube channel also learn new thing in this website with different animation and everything . check below  Subcribe out youtube channel also learn new thing in this website with different animation and everything . check below </p>
                     <p> Subcribe out youtube channel also learn new thing in this website with different animation and everything . check below   Subcribe out youtube channel also learn new thing in this website with different animation and everything . check below</p>
                 </div>
-                <div class="col-md-6 text-justify">
+                <div class="col-md-6 text-justify" data-aos="fade-right">
                     <h3> Knowledge , Skills and Hardwork </h3>
                     <p> Subcribe out youtube channel also learn new thing in this website with different animation and everything . check below  Subcribe out youtube channel also learn new thing in this website with different animation and everything . check below </p>
                     <p> Subcribe out youtube channel also learn new thing in this website with different animation and everything . check below   Subcribe out youtube channel also learn new thing in this website with different animation and everything . check below</p>
                 </div>
                 <div class="col-md-6">
-                    <div class="embed-resonsive embed-resonsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/m756Gz8de4M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="embed-resonsive embed-resonsive-16by9" data-aos="fade-left">
+                        <iframe width="540" height="315" src="https://www.youtube.com/embed/m756Gz8de4M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Services -->
+
     <section id="services">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="flip-up">
                     <img src="images/mma.png" alt="" height="100px" width="100px">
                     <h4> Mixed Martial Arts </h4>
                     <p> Subcribe out youtube channel also learn new thing in this website with different animation and everything . </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="flip-up">
                     <img src="images/mma.png" alt="" height="100px" width="100px">
                     <h4> Gym </h4>
                     <p> Subcribe out youtube channel also learn new thing in this website with different animation and everything . </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="flip-up">
                     <img src="images/mma.png" alt="" height="100px" width="100px">
                     <h4> Boxing </h4>
                     <p> Subcribe out youtube channel also learn new thing in this website with different animation and everything . </p>
@@ -99,13 +98,15 @@
         </div>
     </section>
 
+    <!-- Features -->
+
     <section id="features">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="zoom-in-right">
                     <img src="images/feature1.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="zoom-in-left">
                         <div class="feature-box">
                             <div class="feature-left">
                                 <i class="fa fa-trophy"></i>
@@ -139,25 +140,33 @@
         </div>
     </section>
 
+    <!-- Testimonials -->
+
 
     <section id="testimonials">
         <div class="container">
             <h1 class="text-center"> Meet our Users </h1>
             <p class="text-center"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, corporis.</p>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000">
                     <p class="review">Subcribe out youtube channel also learn new thing in this website with different animation and everything . html css javascript Lorem ipsum dolor sit amet.<br>
                         <i class="fab fa-twitter"></i><span>@prats_1999</span>
                     </p>
                     <img src="images/user1.jpg" alt="">
                 </div>
-                <div class="col-md-4 middle">
+                <div class="col-md-4 middle" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000">
                     <p class="review">Subcribe out youtube channel also learn new thing in this website with different animation and everything . html css javascript Lorem ipsum dolor sit amet.<br>
                         <i class="fab fa-twitter"></i><span>@pk.keluskar</span>
                     </p>
                     <img src="images/user1.jpg" alt="">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000">
                     <p class="review">Subcribe out youtube channel also learn new thing in this website with different animation and everything . html css javascript Lorem ipsum dolor sit amet.<br>
                         <i class="fab fa-twitter"></i><span>@Pratik.97</span>
                     </p>
@@ -167,14 +176,15 @@
         </div>
     </section>
 
-
-    <section id="subscribe">
+<!-- Subscribe  -->
+    <section id="subscribe" data-aos="fade-up"
+    data-aos-anchor-placement="bottom-bottom">
         <div class="container">
             <div class="subscribe text-center">
                 <h3> Join for free Trial Now </h3>
                 <p> Subscribe for our Newsletter and get 30 Days free Trial </p>
                 <div class="input-group">
-                    <input type="email" class="form-control" placeholder="Email Id">
+                    <input type="email" class="form-control" placeholder="Email Id" class="email">
                     <div class="input-group-append">
                         <button type="submit" class="input-group-text btn">Subscribe</button>
                     </div>
@@ -184,7 +194,7 @@
 
     </section>
 
-
+<!-- Footer -->
     <section id="footer">
         <div class="container">
             <div class="row">
@@ -229,6 +239,11 @@
     var scroll = new SmoothScroll('a[href*="#"]');
 </script>
 <!-- Animation -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 
 
 </body>
